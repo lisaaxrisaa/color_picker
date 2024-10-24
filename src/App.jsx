@@ -7,7 +7,6 @@ const Color = ({ color, setSelectedColor, selectedColor }) => {
     <div
       className={`${color} ${isSelected}`}
       onClick={() => setSelectedColor(color)}
-      // style={{ backgroundColor: color, width: '50px', height: '50px' }}
     ></div>
   );
 };
